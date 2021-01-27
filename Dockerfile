@@ -30,6 +30,7 @@ RUN apt -y update && \
     python setup.py install --compiler-flags "-mfpu=neon" && \
     pip3 install face_recognition && \
     pip3 install image_to_numpy && \
+    pip3 install scikit-learn && \
     cd .. && \
     rm -rf dlib && \
     rm -rf .cache && \
