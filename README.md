@@ -1,3 +1,6 @@
-# dlib + face_recognition Docker image
+# Python face recognition kit
 
-Docker container for Raspberry Pi with dlib and https://github.com/ageitgey/face_recognition already installed
+Docker image with:
+- dlib compiled from source with NEON flags for Raspberry Pi
+- https://github.com/ageitgey/face_recognition
+- scikit-learn
